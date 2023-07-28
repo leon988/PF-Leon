@@ -10,7 +10,7 @@ header {
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center; }
-
+/* No se por que se repite esta parte de nuevo */
 * {
   font-family: 'Victor Mono', monospace; }
 
@@ -23,7 +23,7 @@ header {
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center; }
-
+/* Mi footer no se modifico*/
 footer {
   background-color: #d8f78f;
   padding: 10px;
