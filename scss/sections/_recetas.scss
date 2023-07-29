@@ -2,22 +2,29 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-}
+  }
   
-.receta {
+  .receta {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+  }
   
-.receta img {
+  .receta img {
     width: 100%;
     max-width: 300px;
     height: auto;
     border-radius: 20px 20px 0px 0px;
-}
+  }
   
-.receta h3 {
+  .receta h3 {
     margin-top: 10px;
-}
+  }
+  
+  .receta:hover {
+    transform: scale(1.1); 
+  }
+  

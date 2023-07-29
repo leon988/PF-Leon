@@ -1,4 +1,3 @@
-@import './sections/nav';
 @import './sections/footer';
 @import './sections/main';
 @import './sections/inicio';
@@ -7,6 +6,8 @@
 @import './sections/detalles';
 @import './sections/acerca';
 @import './sections/general';
+@import './sections/nav';
+@import './variables/color';
 // Variables
 $primary-color: #c14343;
 $secondary-color: darkgoldenrod;
