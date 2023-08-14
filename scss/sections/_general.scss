@@ -3,13 +3,20 @@
   }
   
 body {
+    font-family: 'Victor Mono', monospace;
     margin: 0;
     padding: 0;
-    font-family: 'Victor Mono', monospace;
+    height: 100%;
   }
   
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
 header {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
